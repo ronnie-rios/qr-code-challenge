@@ -1,10 +1,11 @@
 
 import './App.css';
+import QrCard from './components/QrCard';
 
 function App() {
   return (
     <div className="App">
-
+      <QrCard />
     </div>
   );
 }
