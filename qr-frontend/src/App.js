@@ -1,4 +1,3 @@
-
 import './App.css';
 import QrCard from './components/QrCard';
 

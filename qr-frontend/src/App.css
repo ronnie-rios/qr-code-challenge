@@ -1,27 +1,26 @@
-.App {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 10px;
-  background-color: aliceblue;
+
+
+.card {
+  max-width: 300px;
+  margin: auto;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
 }
 
 .qr-container {
-  width: 65%;
-  padding: 15px;
- grid-column-start: 2;
- border: 1px solid #ffffff;
- border-radius: 25px;
+  display: flex;
+  justify-content: center; 
 }
 
 .qr-img {
-  border-radius: 25px;
+  border-radius: 15px;
   object-fit: cover;
-  max-width: 100%;
-    max-height: 100%;
+  width: 100%;
 }
 
 .text-container {
   text-align: center;
+  
 }
 
 #text-main {
@@ -31,4 +30,5 @@
 #text-subheading {
   font-weight: lighter;
   font: rgb(190, 188, 188);
+  padding: 10px;
 }

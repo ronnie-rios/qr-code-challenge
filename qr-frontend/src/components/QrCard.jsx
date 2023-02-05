@@ -1,13 +1,12 @@
 import React from 'react'
-import Favicon from '../assets/images/favicon-32x32.png';
 import Qrcode from '../assets/images/image-qr-code.png';
 import '../App.css';
 
 const QrCard = () => {
   return (
-    <div className='qr-container'>
+    <div className='card'>
         {/* <img src={Favicon} alt="" /> */}
-        <div>
+        <div className='qr-container'>
           <img src={Qrcode} alt="" className='qr-img'/>
         </div>
         <div className='text-container'>
