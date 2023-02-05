@@ -10,7 +10,7 @@ const QrCard = () => {
           <img src={Qrcode} alt="" className='qr-img'/>
         </div>
         <div className='text-container'>
-          <p id='text-main'>Improve your front-end skills by building projects.</p>
+          <h2 id='text-main'>Improve your front-end skills by building projects</h2>
           <p id='text-subheading'>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
         </div>
     </div>
